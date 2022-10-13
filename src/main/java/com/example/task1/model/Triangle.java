@@ -12,13 +12,8 @@ public class Triangle extends Shope{
         gc.setFill(color);
         gc.fillPolygon(new double[]{x1, x2, x3}, new double[]{y1, y2, y3}, 3);
     }
-    //SQUARE OF TRIANGLE
 
-    public String toString() {
-        return "Фигура цвета -" + super.color + " и  площади равной " ;
-    }
     public Triangle(Color color, double x1, double y1, double x2, double y2, double x3, double y3 ) {
-        // calling Shape constructor
         super(color);
         this.x1 = x1;
         this.x2 = x2;
